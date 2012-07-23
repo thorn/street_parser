@@ -16,6 +16,22 @@ ActiveRecord::Schema.define(:version => 20120628194702) do
   create_table "cities", :force => true do |t|
     t.string   "name"
     t.string   "ancestry"
+    t.string   "aoguid"
+    t.string   "formalname"
+    t.string   "regioncode"
+    t.string   "areacode"
+    t.string   "citycode"
+    t.string   "ctarcode"
+    t.string   "placecode"
+    t.string   "streetcode"
+    t.string   "extrcode"
+    t.string   "offname"
+    t.string   "shortname"
+    t.string   "aolevel"
+    t.string   "parentguid"
+    t.string   "aoid"
+    t.string   "previd"
+    t.string   "nextid"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
